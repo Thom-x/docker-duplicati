@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+
+PUID=${PUID:-911}
+PGID=${PGID:-911}
+
+groupmod -o -g "$PGID" duplicati
+usermod -o -u "$PUID" duplicati
+chown duplicati:duplicati -R /home/duplicati
