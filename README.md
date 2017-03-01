@@ -1,4 +1,4 @@
-[![](https://images.microbadger.com/badges/image/thomx/duplicati.svg)](https://microbadger.com/images/thomx/duplicati "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/thomx/duplicati.svg)](https://microbadger.com/images/thomx/duplicati "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/thomx/duplicati.svg)](https://microbadger.com/images/thomx/duplicati "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/thomx/duplicati.svg)](https://microbadger.com/images/thomx/duplicati "Get your own version badge on microbadger.com") [![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/Thom-x/docker-duplicati/master/LICENSE)
 
 # Duplicati #
 Duplicati is a backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers. It works with Amazon S3, Windows Live SkyDrive, Google Drive (Google Docs), Rackspace Cloud Files or WebDAV, SSH, FTP (and many more). Duplicati is open source and free.
