@@ -1,7 +1,7 @@
 FROM mono:4
 MAINTAINER Thomas M "maugin.thomas@gmail.com"
 
-ENV DUPLICATI_VER 2.0.1.65_canary_2017-06-09
+ENV DUPLICATI_VER 2.0.1.72_canary_2017-07-05
 
 RUN echo "force-unsafe-io" > /etc/dpkg/dpkg.cfg.d/02apt-speedup
 RUN echo "Acquire::http {No-Cache=True;};" > /etc/apt/apt.conf.d/no-cache
