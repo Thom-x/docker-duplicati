@@ -1,4 +1,4 @@
-FROM mono:4
+FROM mono:latest
 MAINTAINER Thomas M "maugin.thomas@gmail.com"
 
 ENV DUPLICATI_VER 2.0.4.16_canary_2019-03-28
