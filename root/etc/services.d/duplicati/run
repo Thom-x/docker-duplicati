@@ -7,4 +7,4 @@ if [ ! -n "$DUPLICATI_PASS" ]; then
   echo "ERROR- DUPLICATI_PASS must be defined"
   exit 42
 fi
-exec s6-setuidgid duplicati $DUPLICATI_SERVER --webservice-port=8200 --webservice-interface=* --webservice-password=${DUPLICATI_PASS}
+exec s6-setuidgid duplicati $DUPLICATI_SERVER --webservice-port=8200 --webservice-interface=* allowed-hostnames=* --webservice-password=${DUPLICATI_PASS}
